@@ -109,5 +109,11 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub D3athWader Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/d3athwader/websocket-chat-spring</url>
+		</repository>
+	</distributionManagement>
 </project>
